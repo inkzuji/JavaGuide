@@ -1,10 +1,6 @@
 点击关注[公众号](#公众号)及时获取笔主最新更新文章，并可免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源。
 
-作者的其他开源项目推荐：
-
-1. [springboot-guide](https://github.com/Snailclimb/springboot-guide) : 适合新手入门以及有经验的开发人员查阅的 Spring Boot 教程（业余时间维护中，欢迎一起维护）。
-2. [programmer-advancement](https://github.com/Snailclimb/programmer-advancement) : 我觉得技术人员应该有的一些好习惯！
-3. [spring-security-jwt-guide](https://github.com/Snailclimb/spring-security-jwt-guide) :从零入门 ！Spring Security With JWT（含权限验证）后端部分代码。
+**[推荐一下阿里云双11的活动：云服务器1折起，仅86元/年，限量抢购！](https://www.aliyun.com/1111/2019/group-buying-share?ptCode=32AE103FC8249634736194795A3477C4647C88CF896EF535&userCode=hf47liqn&share_source=copy_link)** （仅限新人，老用户可以考虑使用家人或者朋友账号购买，推荐799/3年 2核4G 这个性价比和适用面更广）
 
 <p align="center">
 <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
@@ -23,9 +19,9 @@
 
 <h3 align="center">Sponsor</h3>
 <p align="center">
-  <a  href="https://study.163.com/topics/JavaGuide/" >
+  <a  href="https://url.163.com/hXm" >
 <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/WechatIMG1.png"width="" style="margin: 0 auto;"/>
-  </a>
+  </a >
 </p>
 
 推荐使用 https://snailclimb.top/JavaGuide/ 在线阅读(访问速度慢的话，请使用 https://snailclimb.gitee.io/javaguide )，在线阅读内容本仓库同步一致。这种方式阅读的优势在于：有侧边栏阅读体验更好，Gitee pages 的访问速度相对来说也比较快。
@@ -51,14 +47,15 @@
     - [Redis](#redis)
 - [系统设计](#系统设计)
     - [常用框架(Spring/SpringBoot、Zookeeper ... )](#常用框架)
+    - [数据通信(消息队列、Dubbo ... )](#数据通信)
     - [权限认证](#权限认证)
     - [设计模式(工厂模式、单例模式 ... )](#设计模式)
-    - [数据通信(消息队列、Dubbo ... )](#数据通信)
     - [网站架构](#网站架构)
 - [面试指南](#面试指南)
     - [备战面试](#备战面试)
     - [常见面试题总结](#常见面试题总结)
     - [面经](#面经)
+- [Java学习常见问题汇总](#java学习常见问题汇总)
 - [工具](#工具)
     - [Git](#git)
     - [Docker](#Docker)
@@ -181,6 +178,22 @@
 - [ZooKeeper 相关概念总结](docs/system-design/framework/ZooKeeper.md)
 - [ZooKeeper 数据模型和常见命令](docs/system-design/framework/ZooKeeper数据模型和常见命令.md)
 
+### 数据通信
+
+- [数据通信(RESTful、RPC、消息队列)相关知识点总结](docs/system-design/data-communication/summary.md)
+
+#### Dubbo
+
+- [Dubbo 总结：关于 Dubbo 的重要知识点](docs/system-design/data-communication/dubbo.md)
+
+#### 消息中间件
+
+- [消息队列总结](docs/system-design/data-communication/message-queue.md)
+- [RabbitMQ 入门](docs/system-design/data-communication/rabbitmq.md)
+- [RocketMQ的几个简单问题与答案](docs/system-design/data-communication/RocketMQ-Questions.md)
+- [Kafka入门看这一篇就够了](docs/system-design/data-communication/Kafka入门看这一篇就够了.md)
+- [Kafka系统设计开篇-面试看这篇就够了](docs/system-design/data-communication/Kafka系统设计开篇-面试看这篇就够了.md)
+
 ### 权限认证
 
 - **[权限认证基础:区分Authentication,Authorization以及Cookie、Session、Token](docs/system-design/authority-certification/basis-of-authority-certification.md)**
@@ -190,16 +203,6 @@
 ### 设计模式
 
 - [设计模式系列文章](docs/system-design/设计模式.md)
-
-### 数据通信
-
-- [数据通信(RESTful、RPC、消息队列)相关知识点总结](docs/system-design/data-communication/summary.md)
-- [Dubbo 总结：关于 Dubbo 的重要知识点](docs/system-design/data-communication/dubbo.md)
-- [消息队列总结](docs/system-design/data-communication/message-queue.md)
-- [RabbitMQ 入门](docs/system-design/data-communication/rabbitmq.md)
-- [RocketMQ的几个简单问题与答案](docs/system-design/data-communication/RocketMQ-Questions.md)
-- [Kafka入门看这一篇就够了](docs/system-design/data-communication/Kafka入门看这一篇就够了.md)
-- [Kafka系统设计开篇-面试看这篇就够了](docs/system-design/data-communication/Kafka系统设计开篇-面试看这篇就够了.md)
 
 ### 网站架构
 
@@ -231,6 +234,11 @@
 - [5面阿里,终获offer(2018年秋招)](docs/essential-content-for-interview/BATJrealInterviewExperience/5面阿里,终获offer.md)
 - [蚂蚁金服2019实习生面经总结(已拿口头offer)](docs/essential-content-for-interview/BATJrealInterviewExperience/蚂蚁金服实习生面经总结(已拿口头offer).md)
 - [2019年蚂蚁金服、头条、拼多多的面试总结](docs/essential-content-for-interview/BATJrealInterviewExperience/2019alipay-pinduoduo-toutiao.md)
+
+## Java学习常见问题汇总
+
+- [Java学习路线和方法推荐](docs/questions/java-learning-path-and-methods.md)
+- [Java培训四个月能学会吗？](docs/questions/java-training-4-month.md)
 
 ## 工具
 
@@ -267,7 +275,7 @@
 
 ## 说明
 
-### 介绍
+### JavaGuide介绍
 
 *  **对于 Java 初学者来说：** 本文档倾向于给你提供一个比较详细的学习路径，让你对于Java整体的知识体系有一个初步认识。另外，本文的一些文章
 也是你学习和复习 Java 知识不错的实践；
@@ -276,6 +284,12 @@
 Markdown 格式参考：[Github Markdown格式](https://guides.github.com/features/mastering-markdown/)，表情素材来自：[EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
 
 利用 docsify 生成文档部署在 Github pages: [docsify 官网介绍](https://docsify.js.org/#/)
+
+### 作者的其他开源项目推荐
+
+1. [springboot-guide](https://github.com/Snailclimb/springboot-guide) : 适合新手入门以及有经验的开发人员查阅的 Spring Boot 教程（业余时间维护中，欢迎一起维护）。
+2. [programmer-advancement](https://github.com/Snailclimb/programmer-advancement) : 我觉得技术人员应该有的一些好习惯！
+3. [spring-security-jwt-guide](https://github.com/Snailclimb/spring-security-jwt-guide) :从零入门 ！Spring Security With JWT（含权限验证）后端部分代码。
 
 ### 关于转载
 
@@ -310,6 +324,10 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 <a href="https://github.com/fanchenggang">  
     <img src="https://avatars2.githubusercontent.com/u/8225921?s=460&v=4" width="45px">
 </a>
+<a href="https://github.com/Rustin-Liu">  
+    <img src="https://avatars2.githubusercontent.com/u/29879298?s=400&v=4" width="45px">
+</a>
+
 <a href="https://github.com/ipofss">
     <img src="https://avatars1.githubusercontent.com/u/5917359?s=460&v=4" width="45px"></a>
 <a href="https://github.com/Gene1994">
